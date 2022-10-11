@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    width: 100%;
+}
+
+.left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 28%;
+    margin-left: 15px;
+}
+
+#img-logo {
+    width: 90px;
+}
+
+.twentyfive {
+    height: 25px;
+}
+
+.testo {
+    font-size: 12px;
+    padding-top: 3px;
+    color: rgb(78, 78, 78);
+}
+
+.right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+    margin-right: 20px;
+}
+
+.quad-blue {
+    position: relative;
+    bottom: 3px;
+    line-height: 22px;
+    padding: 3px 10px 3px 10px;
+    height: 22px;
+    background-color: rgb(28, 81, 255);
+    color: white;
+}
