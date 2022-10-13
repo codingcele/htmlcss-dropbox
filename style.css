@@ -276,12 +276,16 @@ main {
     color: blue;
 }
 
+.team {
+    border: 2px solid lightgray;
+}
+
 .team-top {
     display: flex;
     justify-content: center;
     height: 40px;
     line-height: 40px;
-    border: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
 }
 
 #team-title {
@@ -291,27 +295,24 @@ main {
 .team-bottom {
     display: flex;
     justify-content: center;
-    height: 200px;  
-    background-color: red;  
+    height: 160px;  
 }
 
 .team-bottom-content {
     display: flex;
+    flex-wrap: wrap;
     width: 92%;
     height: 100%;
-    background-color: orchid;
 }
 
 .team-bottom-left {
     width: 65%;
     height: 100%;
-    background-color: aqua;
 }
 
 .team-bottom-right {
     width: 35%;
     height: 100%;
-    background-color: blueviolet;
 }
 
 .content-first {
@@ -321,21 +322,28 @@ main {
     top: 25px;
     height: 40px;
     width: 100%;
-    background-color: beige;
 }
 
 .first-left {
     line-height: 40px;
-    width: 30%;
-    background-color: yellow;
+    width: 20%;
 }
 
 .first-right {
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
     line-height: 40px;
-    width: 30%;
-    background-color: maroon;
+    width: 35%;
+    color: white;
+    background-color: rgb(30, 30, 255);
 }
 
+.content-second {
+    height: 30px;
+    line-height: 30px;
+}
 
-
-
+.content-third {
+    font-size: 13px;
+}
