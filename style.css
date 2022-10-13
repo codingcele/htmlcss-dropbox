@@ -387,3 +387,30 @@ main {
     margin-top: 25px;
     font-size: 13px;
 }
+
+.drop-buss {
+    margin-top: 90px;
+}
+
+.griglia-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.img-scr {
+    width: calc(100% / 3 - 30px);
+}
+
+.img-in-griglia {
+    width: 100%;
+}
+
+.scritta {
+    margin-top: 5px;
+}
+
+.scritta-lunga {
+    margin-top: 30px;
+    font-size: 14px;
+}
