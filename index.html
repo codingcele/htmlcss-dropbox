@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/53b34e5099.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/53b34e5099.js" crossorigin="anonymous"></script>
 </head>
 <body>
     
@@ -93,10 +94,18 @@
                 <div class="fatts">
 
                     <div class="fat">
-                        Fatturazione mensile
+                        <div class="big-circle blu-back">
+                            <div class="small-circle"></div>
+                        </div>
+                        <div>
+                            Fatturazione mensile
+                        </div>
                     </div>
                     <div class="fat">
-                        Fatturazione annuale
+                        <div class="big-circle gray-border"></div>
+                        <div>
+                            Fatturazione annuale
+                        </div> 
                     </div>
 
                 </div>
@@ -105,7 +114,8 @@
                     <div class="col">
 
                         <div class="top">
-                            <p>Singolo</p>
+                            <i class="fa-solid fa-user"></i>
+                            <p class="heading">Singolo</p>
                         </div>
                         <div class="col-den">
 
@@ -113,25 +123,25 @@
                                 Professional
                             </h4>
 
-                            <div class="price">
-                                € 12.00
+                            <div class="info-price">
+                                <span class="price">
+                                    € 12.00
+                                </span> 
                                 <br>
                                 <br>
-                                <p>/mese</p>
+                                <p class="gray">/mese</p>
                             </div>
 
                             <div class="description">
-                                1 utente
-                                <br>
-                                <br>
-                                5 TB di spazio di archiviazione sicuro
-                                <br>
-                                <br>
-                                Funzioni di produttività premium e condivisione di file semplice e sicura
+                
+                                    <div class="desc-line"><div><i class="fa-solid fa-user"></i></div> <div class="script">1 utente</div> </div> 
+                                    <div class="desc-line"><div><i class="fa fa-folder" aria-hidden="true"></i></div> <div class="script">5 TB di spazio di archiviazione sicuro</div> </div> 
+                                    <div class="desc-line"><div><i class="fa-solid fa-share-nodes"></i></div> <div class="script">Funzioni di produttività premium e condivisione di file semplice e sicura</div> </div> 
+
                             </div>
 
                             <div class="rett-blu">
-                                Prova gratis per 30 giorni
+                                <p>Prova gratis per 30 giorni</p> 
                             </div>
 
                             <div class="otherwise">
@@ -143,11 +153,9 @@
                             </div>
 
                             <div class="lista">
-                                <h5>Punti salienti del piano</h5>
-                                <ul>
-                                    <li>Invia file fino a 100 GB con Dropbox Transfert</li>
-                                    <li>Cartelle offline su dispositivi mobili</li>
-                                </ul>
+                                <h5 class="punti">Punti Salienti del piano</h5>
+                                <div class="desc-line"><div><i class="fa-solid fa-check"></i></div> <div class="script">Invia file fino a 100 GB con Dropbox Transfert</div> </div> 
+                                <div class="desc-line"><div><i class="fa-solid fa-check"></i></div> <div class="script">Cartelle offline su dispositivi mobili</div> </div> 
                             </div>
 
                         </div>
@@ -156,22 +164,151 @@
                     <div class="col">
 
                         <div class="top">
-                            <p>Team</p>
+                            <i class="fa-solid fa-user-group"></i>
+                            <p class="heading">Team</p>
+                        </div>
+
+                        <div class="col-den">
+
+                            <h4 class="type">
+                                Advanced
+                            </h4>
+
+                            <div class="info-price">
+                                <span class="price">
+                                    € 18.00
+                                </span> 
+                                <br>
+                                <br>
+                                <p class="gray">/utente/mese</p>
+                            </div>
+
+                            <div class="description">
+                
+                                    <div class="desc-line"><div><i class="fa-solid fa-user-group"></i></div> <div class="script">3 o più utenti</div> </div> 
+                                    <div class="desc-line"><div><i class="fa fa-folder" aria-hidden="true"></i></div> <div class="script">Tutto lo spazio di cui ha bisogno il tuo team</div> </div> 
+                                    <div class="desc-line"><div><i class="fa-solid fa-share-nodes"></i></div> <div class="script">Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</div> </div> 
+
+                            </div>
+
+                            <div class="rett-blu">
+                                <p>Prova gratis per 30 giorni</p> 
+                            </div>
+
+                            <div class="otherwise">
+                                oppure <a href="">acquista ora</a>
+                            </div>
+
+                            <div class="hor-line">
+                                <hr>
+                            </div>
+
+                            <div class="lista">
+                                <h5 class="punti">Punti Salienti del piano</h5>
+                                <div class="desc-line"><div><i class="fa-solid fa-check"></i></div> <div class="script">Nessun limite di spazio per i file</div> </div> 
+                                <div class="desc-line"><div><i class="fa-solid fa-check"></i></div> <div class="script">Cartelle offline su dispositivi mobili</div> </div>
+                                <div class="desc-line"><div><i class="fa-solid fa-check"></i></div> <div class="script">Risparmio del 50% rispetto alle iscrizioni singole</div> </div>
+                                <div class="desc-line"><div><i class="fa-solid fa-check"></i></div> <div class="script">Possibilità di inserire nuovi membri del team</div> </div>
+                                <div class="desc-line"><div><i class="fa-solid fa-check"></i></div> <div class="script">Gestione dei permessi in base ai ruoli</div> </div>    
+                            </div>
+
                         </div>
 
                     </div>
                     <div class="col">
 
                         <div class="top">
-                            <p>Azienda</p>
+                            <i class="fa-solid fa-building"></i>
+                            <p class="heading">Azienda</p>
+                        </div>
+
+                        <div class="col-den">
+
+                            <h4 class="type">
+                                Enterprise
+                            </h4>
+
+                            <div class="info-price">
+                                <span class="price">
+                                    Contattaci
+                                </span> 
+                                <br>
+                                <br>
+                                <p class="gray">-</p>
+                            </div>
+
+                            <div class="description">
+                
+                                    <div class="desc-line"><div><i class="fa-solid fa-user"></i></div> <div class="script">10 o più utenti</div> </div> 
+                                    <div class="desc-line"><div><i class="fa fa-folder" aria-hidden="true"></i></div> <div class="script">Soluzioni personalizzabili per la tua azienda</div> </div> 
+                                    <div class="desc-line"><div><i class="fa-solid fa-share-nodes"></i></div> <div class="script">Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</div> </div> 
+
+                            </div>
+
+                            <div class="rett-blu">
+                                <p>Contattaci</p> 
+                            </div>
+
+                            <div class="otherwise">
+                                oppure <a href="">acquista ora</a>
+                            </div>
+
+                            <div class="hor-line">
+                                <hr>
+                            </div>
+
+                            <div class="lista">
+                                <h5 class="punti">Punti Salienti del piano</h5>
+                                <div class="desc-line"><div><i class="fa-solid fa-check"></i></div> <div class="script">Cartelle offline su dispositivi mobili</div> </div> 
+                                <div class="desc-line"><div><i class="fa-solid fa-check"></i></div> <div class="script">Servizio assistenza 24/h</div> </div>
+                                <div class="desc-line"><div><i class="fa-solid fa-check"></i></div> <div class="script">Possibilità di personalizzazione totale</div> </div>  
+                            </div>
+
                         </div>
 
                     </div>
                 </div>
 
+                <div class="team">
+
+                    <div class="team-top">
+
+                        <div id="team-symbol">
+                            <i class="fa-solid fa-building"></i>
+                        </div>
+                        <div id="team-title">
+                            Team
+                        </div>
+            
+                    </div>
+    
+                    <div class="team-bottom">
+                        
+                        <div class="team-bottom-content">
+
+                            <div class="content-first">
+                                <h3 class="first-left">
+                                    Enterprise
+                                </h3>
+                                <div class="first-right">
+                                    Contatta l'ufficio vendite
+                                </div>
+                            </div>
+
+
+                        </div>
+    
+                    </div>
+
+                </div>
+
+                
+            
             </div>
 
         </div>
+
+        
 
     </main>
 
